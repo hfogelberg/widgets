@@ -20,21 +20,3 @@ html {
 body {
     box-sizing: border-box;
 }
-
-a {
-    color: $primary-color-text;
-    text-decoration: none;
-}
-
-a {
-     :hover,
-     :visited,
-     :focus,
-     :active {
-        text-decoration: none;
-    }
-}
-
-a.code-link {
-    color: $secondary-text-color;
-}
