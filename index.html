@@ -24,19 +24,46 @@
         </h1>
       </div>
 
-      <p class="paragraph header__header-box--paragraph">
+      <p class="paragraph paragraph">
         A collection of useful UI Widgets I've created, tweaked or borrowed.
       </p>
-
     </div>
   </header>
 
-  <section class="section flexgrid">
+  <section class="section menu-section">
+    <h2 class="heading-secondary">
+      Menu
+    </h2>
+
+    <div class="menu">
+      <ul class="menu__list">
+        <li class="menu__list--item">
+          <a href="#flexgrid">Flexgrid</a>
+        </li>
+        <li class="menu__list--item">
+          <a href="#slide-in">Slide-In Menu</a>
+        </li>
+        <li class="menu__list--item">
+          <a href="#horizontal">Hotizontal Slide</a>
+        </li>
+        <li class="menu__list--item">
+          <a href="#card-flip">Card Flip</a>
+        </li>
+        <li class="menu__list--item">
+          <a href="#gradient-header">Gradient Header</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section flexgrid" id="flexgrid">
     <h2 class="heading-secondary">
       Flexgrid
     </h2>
     <p class="paragraph u-margin-bottom-medium">
       Responsive grid layout using Flexbox.
+      <br>
+      <a href="https://github.com/hfogelberg/widgets/blob/master/sass/components/_flexgrid.scss" class="code-link">Source code</a>
     </p>
 
     <div class="demo">
@@ -135,16 +162,17 @@
     </div>
   </section>
 
-  <section class="section slide-in">
+  <section class="section slide-in" id="slide-in">
     <h2 class="heading-secondary">
       Slide in menu
     </h2>
     <p class="paragraph u-margin-bottom-medium">
       Slide in menu in Flexbox and javascript.
+      <br />
+      <a href="https://github.com/hfogelberg/widgets/blob/master/sass/components/_slidemenu.scss" class="code-link">Source code</a>
     </p>
 
     <button class='hamburger' onclick="openNav()">&#9776;</button>
-    <div class="demo"></div>
 
     <div class="sidenav" id="sidenav">
       <button onclick="closeNav()" class="btnclose">X</button>
@@ -156,12 +184,14 @@
     </div>
   </section>
 
-  <section class="section horizontal">
+  <section class="section horizontal" id="horizontal">
     <h2 class="heading-secondary">
       Horizontal slide
     </h2>
     <p class="paragraph u-margin-bottom-medium">
       Horizontally sliding items. Especially useful on mobiles and tablets.
+      <br>
+      <a href="https://github.com/hfogelberg/widgets/blob/master/sass/components/_horizontal-slide.scss" class="code-link">Source code</a>
     </p>
 
     <div class="horizontal-slide">
@@ -192,29 +222,43 @@
         </div>
       </div>
     </div>
+  </section>
 
-    <section class="section card-flip">
-      <h2 class="heading-secondary">
-        Card Flip Animation
-      </h2>
-      <p class="paragraph u-margin-bottom-medium">
-        Hover to flip the card.
-      </p>
+  <section class="section card-flip" id="card-flip">
+    <h2 class="heading-secondary">
+      Card Flip Animation
+    </h2>
+    <p class="paragraph u-margin-bottom-medium">
+      Hover to flip the card.
+      <br>
+      <a href="https://github.com/hfogelberg/widgets/blob/master/sass/components/_card_flip.scss" class="code-link">Source code</a>
+    </p>
 
-      <div class="flip-container">
-        <div class="card">
-          <div class="card__side card__side--front">
-            <h3 class="heading-tertiary">
-              Front
-            </h3>
-          </div>
-          <div class="card__side card__side--back">
-            <h3 class="heading-tertiary">Back</h3>
-          </div>
+    <div class="flip-container">
+      <div class="card">
+        <div class="card__side card__side--front">
+          <h3 class="heading-tertiary">
+            Front
+          </h3>
+        </div>
+        <div class="card__side card__side--back">
+          <h3 class="heading-tertiary">Back</h3>
         </div>
       </div>
-      </div>
-    </section>
+    </div>
+    </div>
+  </section>
+
+  <section class="section gradient-header" id="gradient-header">
+    <h2 class="heading-secondary">
+      Gradient header
+    </h2>
+    <p class="paragraph u-margin-bottom-medium">
+      Text with color gradient. The text will skew when hovering over it.
+    </p>
+
+    <p class="gradient-text">Gradient header</p>
+  </section>
 
   </section>
 

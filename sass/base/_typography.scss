@@ -4,15 +4,15 @@
     &--main {
         display: block;
         font-size: 6rem;
-        font-weight: 400;
-        letter-spacing: 18px;
+        font-weight: 700;
+        letter-spacing: 1.1rem;
     }
     &--sub {
         display: block;
         font-size: 6rem;
-        font-weight: 700;
-        letter-spacing: 19px;
-        margin-bottom: 60px;
+        font-weight: 400;
+        letter-spacing: 1.3rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -32,4 +32,5 @@
 
 .paragraph {
     font-size: 2rem;
+    margin: 0 2rem;
 }
