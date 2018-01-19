@@ -1,0 +1,20 @@
+{
+  "name": "henriks_widgets",
+  "version": "1.0.0",
+  "description": "Showcase ",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently --kill-others \"npm run build-css\" \"npm run server\"",
+    "build-css": "node-sass --include-path scss sass/main.scss assets/style.css -w",
+    "server": "live-server --port=3000"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

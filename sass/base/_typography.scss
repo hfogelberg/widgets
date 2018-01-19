@@ -1,0 +1,28 @@
+.heading-primary {
+    color: $primary-text-color;
+    text-transform: uppercase;
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 18px;
+    }
+    &--sub {
+        display: block;
+        font-size: 6rem;
+        font-weight: 700;
+        letter-spacing: 19px;
+        margin-bottom: 60px;
+    }
+}
+
+.heading-secondary {
+    font-size: 4.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: $primary-text-color;
+}
+
+.paragraph {
+    font-size: 2rem;
+}

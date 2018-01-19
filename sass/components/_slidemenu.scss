@@ -1,0 +1,54 @@
+.btnclose {
+    padding-left: 0.5em;
+    font-size: 2em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient( to right, $primary-color-dark, $accent-color);
+    box-shadow: 0 10px 20px rgba($color-black, 0.2);
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: $primary-color-text;
+    display: block;
+    transition: 0.3s;
+    &:hover {
+        color: #2980b9;
+    }
+    &:link,
+     :hover,
+     :visited,
+     :focus,
+     :active {
+        text-decoration: none;
+    }
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: 3em;
+    background-color: transparent;
+    border: none;
+    color: #ecf0f1;
+}
+
+.btnclose {
+    font-size: 2em;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #ecf0f1;
+    margin-bottom: 2rem;
+}
